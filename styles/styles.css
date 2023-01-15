@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.class-body {
+  font-family: sans-serif;
+  background: url(https://www.futebolnaveia.com.br/wp-content/uploads/2020/11/qatar.png)
+    no-repeat center fixed;
+  background-size: contain;
+}
+.class-navbar {
+  width: 100%;
+  padding: 20px;
+  display: inline-flex;
+  height: 120px;
+}
+.class-navbar nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+ 
+}
+.class-navbar a {
+  color:black;
+  text-decoration: none;
+  
+  
+}
+.class-title {
+  font-size: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.class-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.class-group h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vw;
+  padding-bottom: 5vw;
+}
+.class-group section {
+  width: 20%;
+  margin: 1.5vw;
+  border-style: ridge;
+  border-radius: 20px;
+}
+.container-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.class-group section h1 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 15px;
+}
+.container-group img {
+  width: 50px;
+  height: 40px;
+  border-style: ridge;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container-group h2 {
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  border-style: ridge;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.qatar:hover {
+  background: linear-gradient(white, #580e21cc);
+}
+.Ecuador:hover {
+  background: linear-gradient(#f7fa01, #0000f6, #f60100);
+}
+.Senegal:hover {
+  background: linear-gradient(#00843e, #fcee41, #e21a22);
+}
+.PaisesBajos:hover {
+  background: linear-gradient(#ad1b27, #fefefe, #20458a);
+}
+.Inglaterra:hover {
+  background: linear-gradient(white, #cd1e2b, white);
+}
+.Irán:hover {
+  background: linear-gradient(#00b500, #f7f7f7, #c60000);
+}
+.EstadosUnidos:hover {
+  background: linear-gradient(#fb0807, #fbe4e4, #00007e);
+}
+.Gales:hover {
+  background: linear-gradient(white, #ed0515, #01b23e);
+}
+.Argentina:hover {
+  background: linear-gradient(#76abdf, #ffffff, #76abdf);
+}
+.Polonia:hover {
+  background: linear-gradient(rgb(248, 247, 247), #ed1b24b8);
+}
+.ArabiaSaudita:hover {
+  background: linear-gradient(#006c35, #006c35);
+}
+.Mexico:hover {
+  background: linear-gradient(#006847, #ffffff, #e61127);
+}
+.Francia:hover {
+  background: linear-gradient(#0a3b89, #f9fdfc, #fc2212);
+}
+.Australia:hover {
+  background: linear-gradient(#012269, #e5002b, white);
+}
+.Dinamarca:hover {
+  background: linear-gradient(#c50b2f, #fefefe, #c50b2f);
+}
+.Túnez:hover {
+  background: linear-gradient(#e70014, #e70014, white);
+}
+.España:hover {
+  background: linear-gradient(#d91119, #fbdc08, #d91119);
+}
+.CostaRica:hover {
+  background: linear-gradient(#5d57d1, #c70102, white);
+}
+.Alemania:hover {
+  background: linear-gradient(#292929, #db3539, #fccf2c);
+}
+.Japón:hover {
+  background: linear-gradient(white, #ef022c, white);
+}
+.Bélgica:hover {
+  background: linear-gradient(black, #ffd600, #c60000);
+}
+.Canadá:hover {
+  background: linear-gradient(#d20100, #d4d4d4, #ce0100);
+}
+.Marruecos:hover {
+  background: linear-gradient(#c60000, #067f00, #c60000);
+}
+.Croacia:hover {
+  background: linear-gradient(#dd0000, #ffffff, #011171);
+}
+.Brasil:hover {
+  background: linear-gradient(#00913e, #f7c200, #27156e);
+}
+.Serbia:hover {
+  background: linear-gradient(#c6363c, #0c4076, white);
+}
+.Suiza:hover {
+  background: linear-gradient(#fe0000, #ffffff, #fe0000);
+}
+.Camerún:hover {
+  background: linear-gradient(#00795d, #cd1025, #fbd015);
+}
+.Portugal:hover {
+  background: linear-gradient(#00a650, #ed1b24, white);
+}
+.Ghana:hover {
+  background: linear-gradient(#cd1025, #fbd015, #006a3e);
+}
+.Uruguay:hover {
+  background: linear-gradient(#0085cc, #0085cc, #0688cd78);
+}
+.CoreadelSur:hover {
+  background: linear-gradient(#be0027, #ffffff, #3b5aa3);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  font-size: 25px;
+  padding: 50px;
+  justify-content: end;
+}
+.class-fase-eliminatoria {
+display: flex;
+}
